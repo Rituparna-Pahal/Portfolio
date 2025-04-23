@@ -3,7 +3,7 @@
 A fully responsive and interactive personal portfolio website built using **HTML** and **Tailwind CSS**, showcasing my skills, projects, and design flair — without using JavaScript!
 
 ---
-### [**>> Live Demo <<**](https://your-url.com)
+### [**>> Live Demo <<**](https://rituparna-pahal.github.io/Portfolio/)
 
 ## 🔍 Overview
 
@@ -33,73 +33,31 @@ The layout adapts beautifully to all screen sizes. Below are screenshots for **D
 
 ### 🏠 Home Section
 
-- **Desktop:**  
-  ![Home - Desktop](/https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/Desktop-Home.png?raw=true)
-
-- **iPad:**  
-  ![Home - iPad](/screenshots/home-ipad.png)
-
-- **Mobile:**  
-  ![Home - Mobile](/screenshots/home-mobile.png)
-
----
-
-### 👤 About Me Section
-
-- **Desktop:**  
-  ![About - Desktop](/screenshots/about-desktop.png)
-
-- **iPad:**  
-  ![About - iPad](/screenshots/about-ipad.png)
-
-- **Mobile:**  
-  ![About - Mobile](/screenshots/about-mobile.png)
-
----
-
-### 📂 Projects Section
-
-- **Desktop:**  
-  ![Projects - Desktop](/screenshots/projects-desktop.png)
-
-- **iPad:**  
-  ![Projects - iPad](/screenshots/projects-ipad.png)
-
-- **Mobile:**  
-  ![Projects - Mobile](/screenshots/projects-mobile.png)
-
----
-
-### 📞 Contact Section
-
-- **Desktop:**  
-  ![Contact - Desktop](/screenshots/contact-desktop.png)
-
-- **iPad:**  
-  ![Contact - iPad](/screenshots/contact-ipad.png)
-
-- **Mobile:**  
-  ![Contact - Mobile](/screenshots/contact-mobile.png)
-
----
-
-### ✅ Thank You Popup
-
-> This appears after clicking "Send" in the contact form (pure CSS, no JavaScript).
-
-![Thank You Popup](/screenshots/thank-you.png)
-
+<div style="display: flex; gap: 16px; justify-content: center; align-items: center;"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/Desktop-Home.png?raw=true" alt="Desktop" height="200"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/ipad-home.png?raw=true" alt="iPad" height="200"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/mobile-home.jpeg?raw=true" alt="Mobile" height="200"> </div>
 ---
 
 ### 🍔 Navigation (Navbar)
 
-- **Desktop:**  
-  ![Navbar - Desktop](/screenshots/navbar-desktop.png)
+<div style="display: flex; gap: 16px; justify-content: center; align-items: center;"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/Desktop-Navbar.png?raw=true" alt="Navbar - Desktop" height="70"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/ipad-navbar.png?raw=true" alt="Navbar - iPad" height="200"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/mobile-navbar.jpeg?raw=true" alt="Navbar - Mobile" height="200"> </div>
 
-- **iPad:**  
-  ![Navbar - iPad](/screenshots/navbar-ipad.png)
+### 👤 About Me Section
 
-- **Mobile (Hamburger Menu):**  
-  ![Navbar - Mobile](/screenshots/navbar-mobile.png)
+<div style="display: flex; gap: 16px; justify-content: center; align-items: center;"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/Desktop-AboutMe.png?raw=true" alt="About Me - Desktop" height="200"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/ipad-AboutMe.png?raw=true" alt="About Me - iPad" height="200"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/mobile-aboutme.jpeg?raw=true" alt="About Me - Mobile" height="200"> </div>
 
 ---
+
+### 📂 Projects Section 
+
+<div style="display: flex; gap: 16px; justify-content: center; align-items: center;"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/Desktop-Projects.png?raw=true" alt="Projects - Desktop" height="200"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/ipad-projects.png?raw=true" alt="Projects - iPad" height="200"> </div> <div style="display: flex; gap: 16px; justify-content: center; align-items: center; margin-top: 12px;"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/mobile-projects-1.jpeg?raw=true" alt="Projects - Mobile 1" height="200"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/mobile-projects-2.jpeg?raw=true" alt="Projects - Mobile 2" height="200"> </div>
+
+### 📞 Contact Section
+
+<div style="display: flex; gap: 16px; justify-content: center; align-items: center;"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/Desktop-Contacts.png?raw=true" alt="Contact - Desktop" height="200"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/ipad-contact.png?raw=true" alt="Contact - iPad" height="200"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/mobile-contact.jpeg?raw=true" alt="Contact - Mobile" height="200"> </div>
+---
+
+### ✅ Thank You Popup
+
+<div style="display: flex; gap: 16px; justify-content: center; align-items: center;"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/Desktop-Submit-Popup.png?raw=true" alt="Thank You - Desktop" height="200"> <img src="https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/mobile-thankyou-popup.jpeg?raw=true" alt="Thank You - Mobile" height="200"> </div>
+
+---
+
