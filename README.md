@@ -1,36 +1,105 @@
-# Portfolio - Rituparna Pahal
+# 🌐 Rituparna Pahal - Personal Portfolio
 
-Welcome to my **Personal Portfolio** built with pure HTML and Tailwind CSS.  
-This portfolio is a responsive and minimal website showcasing my skills, projects, and a contact form — complete with a CSS-only "Thank You" popup!
+A fully responsive and interactive personal portfolio website built using **HTML** and **Tailwind CSS**, showcasing my skills, projects, and design flair — without using JavaScript!
+
+---
+### [**>> Live Demo <<**](https://your-url.com)
+
+## 🔍 Overview
+
+This portfolio highlights:
+- A smooth scrolling landing page
+- Responsive navigation with a hamburger menu for smaller screens
+- Hover animations and transitions
+- A contact form with a CSS-only "Thank You" modal
+- Project showcase cards with modern UI
 
 ---
 
-## ✨ Features
+## 🛠️ Tech Stack
 
-- 🎯 **Responsive Design** — Looks great on mobiles, tablets, and desktops  
-- 🎨 **Custom Color Palette** — Styled with a consistent theme across sections  
-- 📁 **Project Showcases** — Highlighted projects with thumbnails and GitHub buttons  
-- 🧑‍💼 **About Me Section** — Interactive profile hover  
-- 📬 **CSS-Only Contact Form** — No JavaScript used  
-- ✅ **Animated "Thank You" Pop-up** — Triggered upon form submission  
-- ☁️ **Pure Front-End** — Built without any frameworks or backend
+- HTML5
+- Tailwind CSS
+- Responsive Design (Mobile First)
+- No JavaScript
 
 ---
 
-## 📸 Responsive Design Previews
+## 📱 Responsiveness
 
-| Mobile View | Tablet View | Desktop View |
-|-------------|-------------|---------------|
-| ![Mobile](./screenshots/mobile.png) | ![Tablet](./screenshots/tablet.png) | ![Desktop](./screenshots/desktop.png) |
-
-> 💡 *Make sure to place your screenshots in the `/screenshots` folder.*
+The layout adapts beautifully to all screen sizes. Below are screenshots for **Desktop**, **iPad (Tablet)**, and **Mobile**:
 
 ---
 
-## 🛠 Tech Stack
+### 🏠 Home Section
 
-- HTML5  
-- Tailwind CSS (via Tailwind CLI)  
-- No JavaScript used!  
+- **Desktop:**  
+  ![Home - Desktop](/screenshots/home-desktop.png)
+
+- **iPad:**  
+  ![Home - iPad](/screenshots/home-ipad.png)
+
+- **Mobile:**  
+  ![Home - Mobile](/screenshots/home-mobile.png)
+
+---
+
+### 👤 About Me Section
+
+- **Desktop:**  
+  ![About - Desktop](/screenshots/about-desktop.png)
+
+- **iPad:**  
+  ![About - iPad](/screenshots/about-ipad.png)
+
+- **Mobile:**  
+  ![About - Mobile](/screenshots/about-mobile.png)
+
+---
+
+### 📂 Projects Section
+
+- **Desktop:**  
+  ![Projects - Desktop](/screenshots/projects-desktop.png)
+
+- **iPad:**  
+  ![Projects - iPad](/screenshots/projects-ipad.png)
+
+- **Mobile:**  
+  ![Projects - Mobile](/screenshots/projects-mobile.png)
+
+---
+
+### 📞 Contact Section
+
+- **Desktop:**  
+  ![Contact - Desktop](/screenshots/contact-desktop.png)
+
+- **iPad:**  
+  ![Contact - iPad](/screenshots/contact-ipad.png)
+
+- **Mobile:**  
+  ![Contact - Mobile](/screenshots/contact-mobile.png)
+
+---
+
+### ✅ Thank You Popup
+
+> This appears after clicking "Send" in the contact form (pure CSS, no JavaScript).
+
+![Thank You Popup](/screenshots/thank-you.png)
+
+---
+
+### 🍔 Navigation (Navbar)
+
+- **Desktop:**  
+  ![Navbar - Desktop](/screenshots/navbar-desktop.png)
+
+- **iPad:**  
+  ![Navbar - iPad](/screenshots/navbar-ipad.png)
+
+- **Mobile (Hamburger Menu):**  
+  ![Navbar - Mobile](/screenshots/navbar-mobile.png)
 
 ---
