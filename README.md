@@ -34,7 +34,7 @@ The layout adapts beautifully to all screen sizes. Below are screenshots for **D
 ### 🏠 Home Section
 
 - **Desktop:**  
-  ![Home - Desktop](/screenshots/home-desktop.png)
+  ![Home - Desktop](/https://github.com/Rituparna-Pahal/Portfolio/blob/main/screenshots/Desktop-Home.png?raw=true)
 
 - **iPad:**  
   ![Home - iPad](/screenshots/home-ipad.png)
