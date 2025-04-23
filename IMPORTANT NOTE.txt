@@ -1,0 +1,11 @@
+Tailwind Setup Info
+
+This project is built using the latest version of Tailwind CSS with the CLI setup.
+There is no "tailwind.config.js" file included.
+
+Instead of using a config file, all the customizations like extended colors, spacing, etc., are done directly in the "input.css" file using Tailwind's new @layer and @theme feature.
+This method is supported in the latest versions of Tailwind and helps keep things simple.
+
+Live Demo:
+https://your-live-demo-link.com
+

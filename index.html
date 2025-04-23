@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        #thank-you:target {
+        display: flex;
+        }
+    </style>
+</head>
+<body class="bg-gray" class="scroll-smooth">
+    <div class="max-w-[1000px] mx-auto shadow-gray-600 shadow-lg bg-off-beige h-full">
+
+        <!-- || NAVIGATION SECTION || -->
+
+        <div class="bg-p2-chocolate w-full py-6 flex justify-around items-center sticky top-0 z-50">
+            <h1 class="font-extrabold text-4xl text-p1-beige">Rituparna Pahal</h1>
+          
+            <!-- Desktop View -->
+            <div class="hidden lg:flex space-x-2 font-semibold">
+              <a href="#" class="hover:bg-p2-frappe hover:text-amber-50 px-4 py-2 bg-p1-beige font-bold text-p2-coffee rounded-lg transition-colors duration-400">Home</a>
+              <a href="#about"  class="hover:bg-p2-frappe hover:text-amber-50 px-4 py-2 bg-p1-beige font-bold text-p2-coffee rounded-lg transition-colors duration-400">About Me</a>
+              <a href="#projects" class="hover:bg-p2-frappe hover:text-amber-50 px-4 py-2 bg-p1-beige font-bold text-p2-coffee rounded-lg transition-colors duration-400">Projects</a>
+              <a href="#contact" class="hover:bg-p2-frappe hover:text-amber-50 px-4 py-2 bg-p1-beige font-bold text-p2-coffee rounded-lg transition-colors duration-400">Contact</a>
+            </div>
+          
+            <!-- Hamburger Button -->
+            <div class="relative lg:hidden group">
+                <svg class="w-6 h-6 text-p1-beige" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <!-- Mobile Hovering Navbar -->
+                <div class="hidden group-hover:flex flex-col justify-center items-center px-6 py-4 space-y-2 font-semibold absolute top-full right-0 bg-p2-chocolate/50 rounded-lg shadow-lg z-40">
+                    <a href="#" class="h-10 w-28 relative text-center hover:bg-p2-frappe hover:text-amber-50 px-4 py-2 bg-p1-beige font-bold text-p2-coffee rounded-lg transition-colors duration-400">Home</a>
+                    <a href="#about" class="h-10 w-28 relative text-center hover:bg-p2-frappe hover:text-amber-50 px-4 py-2 bg-p1-beige font-bold text-p2-coffee rounded-lg transition-colors duration-400">About Me</a>
+                    <a href="#projects" class="h-10 w-28 relative text-center hover:bg-p2-frappe hover:text-amber-50 px-4 py-2 bg-p1-beige font-bold text-p2-coffee rounded-lg transition-colors duration-400">Projects</a>
+                    <a href="#contact" class="h-10 w-28 relative text-center hover:bg-p2-frappe hover:text-amber-50 px-4 py-2 bg-p1-beige font-bold text-p2-coffee rounded-lg transition-colors duration-400">Contact</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- || HERO SECTION || -->
+
+        <div class="relative mx-auto my-10 h-[20rem] md:h-[28rem] lg:h-[32rem] flex items-center justify-center">
+            <!-- Background Image -->
+            <img src="./resources/hero.avif"
+                 alt="beige-hero-section"
+                 class="w-full h-full object-cover absolute opacity-80 z-0" />
+          
+            <!-- Content -->
+            <div class="relative z-10 flex flex-col items-center text-center px-4">
+              <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-serif mb-4 text-p2-coffee animate-fade-in">
+                Hello, I'm Rituparna Pahal</h2>
+              <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 text-p2-coffee animate-fade-in">
+                Web Developer, Designer and Content Creator </p>
+              <a href="#projects" class="text-sm md:text-lg bg-p2-chocolate text-white/90 font-bold px-6 py-3 rounded-lg hover:bg-white hover:text-p2-coffee transition-colors duration-300 animate-fade-in-slow">
+                View My Work </a>
+              <div id="about"></div>
+            </div>
+          </div>
+
+        <!--|| ABOUT ME SECTION ||-->
+
+        <div  class="w-full mb-10 py-10 px-4 lg:px-10 bg-pastel-beige flex flex-col lg:flex-row items-center justify-center gap-8">
+            <!-- Profile Image -->
+            <div class="h-64 w-60 bg-[url('./resources/profile.avif')] 
+                        hover:bg-[url('./resources/waving-transition.png')] 
+                        bg-cover bg-top rounded-t-full shadow-2xl shadow-black transition-all duration-300">
+            </div>
+            <!-- Text Content -->
+            <div class="max-w-xl text-center lg:text-left">
+              <h3 class="font-bold text-3xl lg:text-4xl font-serif mb-2 text-p2-chocolate">About Me</h3>
+              <p class="text-xs font-semibold mb-2 text-p2-chocolate">(Hover over my profile picture)</p>
+              <p class="text-sm lg:text-base text-justify text-p2-chocolate mb-2">
+                I am a passionate front-end developer with a knack for turning creative ideas into clean, user-friendly interfaces.
+                With a background in web design and a love for modern web technologies, I specialize in building responsive, accessible, and visually engaging websites.
+              </p>
+              <p class="text-sm lg:text-base text-justify text-p2-chocolate">
+                When I’m not coding, you’ll probably find me sketching out ideas, learning something new, or sipping coffee while fine-tuning a design.
+              </p>
+              <div class="mt-5 lg:mt-3">
+                <span class="text-white bg-p1-rose px-4 py-0.5 rounded-lg">HTML5</span>
+                <span class="text-white bg-p1-rose px-4 py-0.5 rounded-lg">CSS3</span>
+                <span class="text-white bg-p1-rose px-4 py-0.5 rounded-lg">Tailwind CSS</span>
+                <span class="text-white bg-p1-rose px-4 py-0.5 rounded-lg">JavaScript</span>
+                <div id="projects"></div>
+            </div>
+            </div>
+          </div>
+
+         <!-- || PROJECT SECTION || -->
+
+         <div class="w-full bg-p1-duskyRose py-10 px-4">
+            <h3 class="text-center font-bold text-3xl md:text-4xl font-serif text-off-beige mb-10">Projects</h3>
+            <div class="flex flex-wrap justify-center gap-6">
+              <!-- Project - 1 -->
+              <div class="bg-pastel-beige h-auto w-72 flex flex-col items-center rounded-lg shadow-md">
+                <h4 class="p-2 font-semibold text-p1-darkMauve text-lg">SnapGram</h4>
+                <div class="h-40 w-full">
+                  <img src="./resources/snapgram.avif"
+                       alt="SnapGram"
+                       class="object-cover object-top w-full h-full rounded-t-lg">
+                </div>
+                <p class="text-justify text-xs px-4 pt-3 pb-2 text-p1-darkMauve">
+                  SnapGram is a responsive photo-sharing web app inspired by Instagram. Users can upload, view, and like photos.
+                </p>
+                <button class="hover:bg-p1-rose px-5 py-1 mb-4 rounded-lg hover:text-white text-sm font-semibold text-p2-coffee bg-off-beige transition-colors duration-300">
+                  GitHub Link
+                </button>
+              </div>
+              <!-- Project - 2 -->
+              <div class="bg-pastel-beige h-auto w-72 flex flex-col items-center rounded-lg shadow-md">
+                <h4 class="p-2 font-semibold text-p1-darkMauve text-lg">TaskNest</h4>
+                <div class="h-40 w-full">
+                  <img src="./resources/taskNest.avif"
+                       alt="TaskNest"
+                       class="object-cover object-center w-full h-full rounded-t-lg">
+                </div>
+                <p class="text-justify text-xs px-4 pt-3 pb-2 text-p1-darkMauve">
+                  TaskNest is a simple task management tool that lets users create, track, and complete to-dos. It features a UI built using html and Tailwind CSS.
+                </p>
+                <button class="hover:bg-p1-rose px-5 py-1 mb-4 rounded-lg hover:text-white text-sm font-semibold text-p2-coffee bg-off-beige transition-colors duration-300">
+                  GitHub Link
+                </button>
+              </div>
+              <!-- Project - 3 -->
+              <div class="bg-pastel-beige h-auto w-72 flex flex-col items-center rounded-lg shadow-md">
+                <h4 class="p-2 font-semibold text-p1-darkMauve text-lg">DevBlog</h4>
+                <div class="h-40 w-full">
+                  <img src="./resources/devBlog.avif"
+                       alt="DevBlog"
+                       class="object-cover object-top w-full h-full rounded-t-lg">
+                </div>
+                <p class="text-justify text-xs px-4 pt-3 pb-2 text-p1-darkMauve">
+                  DevBlog is a minimal developer-focused blogging platform that supports Markdown, syntax highlighting, and responsive design.
+                </p>
+                <button class="hover:bg-p1-rose px-5 py-1 mb-4 rounded-lg hover:text-white text-sm font-semibold text-p2-coffee bg-off-beige transition-colors duration-300">
+                  GitHub Link
+                </button>
+                <div id="contact"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- || CONTACT SECTION || -->
+
+          <div class="md:w-2/3 bg-pastel-beige flex flex-col lg:flex-row justify-center items-center mt-10 p-6 rounded-tr-4xl rounded-bl-4xl max-w-6xl mx-auto h-auto gap-6">
+            <h3 class="font-bold text-3xl md:text-4xl font-serif text-p2-coffee">Contact</h3>
+          
+            <form action="#" class="w-full max-w-md bg-p1-rose px-6 py-6 rounded-lg flex flex-col items-center gap-3">
+              <input 
+                type="text" 
+                id="name" 
+                placeholder="Name" 
+                required
+                class="w-full border-none rounded-lg px-3 h-10 bg-amber-50 text-gray-600 focus:outline-none focus:ring-2 focus:ring-p2-coffee">
+              <input 
+                type="email" 
+                id="email" 
+                placeholder="E-Mail" 
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                required
+                class="w-full border-none rounded-lg px-3 h-10 bg-amber-50 text-gray-600 focus:outline-none focus:ring-2 focus:ring-p2-coffee">
+              <textarea 
+                name="message" 
+                id="message" 
+                rows="4" 
+                placeholder="Your Message..." 
+                required
+                class="w-full border-none rounded-lg px-3 py-2 bg-amber-50 text-gray-600 resize-none focus:outline-none focus:ring-2 focus:ring-p2-coffee"></textarea>
+                <!-- SUBMIT BUTTON -->
+                    <!-- 
+                        The submit button is implemented as an anchor (<a>) tag 
+                        to maintain the sanctity of pure HTML and CSS only — no JavaScript.
+                        This allows us to style it responsively and simulate a submission 
+                        without actually sending any message. Instead, a simple "Thank you" 
+                        confirmation can be shown with CSS only.
+                    -->
+                <a href="#thank-you" 
+                class="cursor-pointer py-2 px-8 rounded-lg bg-p2-chocolate font-bold text-white hover:bg-p2-milk hover:text-p2-coffee transition-colors duration-300 ease-in-out text-center">
+                Send
+             </a>
+            </form>
+            <div 
+                id="thank-you" 
+                class="hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+                <div class="bg-white text-p2-coffee p-6 rounded-xl shadow-lg text-center max-w-sm w-full">
+                    <p class="text-lg font-semibold mb-4">Thank you! ✅</p>
+                    <p class="mb-4">Your message has been sent.</p>
+                    <a href="#contact" class="inline-block mt-2 px-4 py-2 rounded bg-p2-chocolate text-white hover:bg-p2-milk hover:text-p2-coffee transition">
+                    Close
+                </a>
+            </div>
+        </div>
+          </div>
+          <!-- Social Media Icons -->
+           <div class=" w-1/3 h-7 mx-auto mt-5 mb-5 flex justify-center">
+            <!-- Instagram-icon -->
+                <img src="./resources/instagram-icon.png" alt="Instagram-icon"
+                class="size-7 mr-5 cursor-pointer">
+            <!-- linkdin icon -->
+                <img src="./resources/linkedin-icon.png" alt="twitter-icon"
+                class="size-7 mr-5 cursor-pointer">
+            <!-- Facebook icon -->
+                <img src="./resources/facebook-icon.png" alt="facebook-icon"
+                class="size-7 mr-5 cursor-pointer">
+           </div>
+
+          <!-- || FOOTER SECTION || -->
+
+          <footer class="h-16 md:h-12 flex flex-col md:flex-row justify-around items-center w-full bg-black px-4 md:px-12 font-semibold text-white text-sm">
+            <h4 class="cursor-pointer mt-2 md:mb-0">©2025 Rituparna Pahal</h4>
+            
+            <div class="flex space-x-4 mb-2">
+              <h4 class="cursor-pointer hover:underline">Privacy Policy</h4>
+              <h4 class="cursor-pointer hover:underline">Terms of Service</h4>
+            </div>
+          </footer>
+    </div>
+</body>
+</html>

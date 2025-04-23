@@ -1,0 +1,63 @@
+
+@theme {
+  /* Misllaneous Colors */
+    --color-dusty-rose: #C599B6; 
+    --color-pastel-rose: #E6B2BA;
+    --color-pastel-beige: #FAD0C4;
+    --color-off-beige: #FFF7F3;
+    --color-gray:#E3E1D9;
+    /* Palette-1 Pinks and Beiges*/
+    --color-p1-beige:#FFCDB2;
+    --color-p1-darkBeige:#FFB4A2;
+    --color-p1-rose:#E5989B;
+    --color-p1-duskyRose:#B5828C;
+    --color-p1-darkMauve:#49243E;
+    /* Palette-2 Coffee*/
+    --color-p2-coffee:#6C4A4A;
+    --color-p2-cappucino:#C89595;
+    --color-p2-beige:#DDBEBE;
+    --color-p2-offWhite:#EDEDED;
+    --color-p2-frappe:#DCA06D;
+    --color-p2-chocolate:#561C24;
+    --color-p2-milk:#FFE6E6;
+
+    /* Custom Animation */
+    --animate-wiggle: wiggle 1s ease-in-out infinite;
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+  }
+  }
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@layer utilities {
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+
+  @keyframes fadeInSlow {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .animate-fade-in-slow {
+    opacity:0;
+    animation: fadeInSlow 2s ease-in forwards;
+    animation-delay: 2s;
+  }
+}  
+
+
